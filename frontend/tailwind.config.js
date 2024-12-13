@@ -14,6 +14,7 @@ export default {
     colors: {
       'primary': '#6B3CC9',
       'secondary': '#F28D35',
+      'white': '#FFFFFF',
       'analogous1': '#6A44F2',
       'analogous2': '#1CBDDD',
       'triadic1': '#52378C',
