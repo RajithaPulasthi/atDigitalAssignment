@@ -1,8 +1,28 @@
-import React from "react";
+import Logo from "../../../assets/Logo.png";
 
 const NavBar = () => {
   return (
-    <div className="bg-purple-800 w-full h-[77px] flex items-center justify-center"></div>
+    <div className="bg-primary w-full h-[77px] flex items-center justify-between">
+      <div>
+        <img src={Logo} alt="AT Digital Logo" />
+      </div>
+      <div>
+        <ul className="flex items-center text-white">
+          <a href="">
+            <li className="mr-4">SERVICES</li>
+          </a>
+          <a href="">
+            <li className="mr-4">ABOUT US</li>
+          </a>
+          <a href="">
+            <li className="mr-4">CONTACT US</li>
+          </a>
+          <a href="">
+            <li className=" mr-4">CAREERS</li>
+          </a>
+        </ul>
+      </div>
+    </div>
   );
 };
 
