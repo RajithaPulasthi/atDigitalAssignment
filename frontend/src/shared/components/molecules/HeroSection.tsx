@@ -3,7 +3,7 @@ import HeroImage from "../../../assets/heroImage.png";
 const HeroSection = () => {
   return (
     <div
-      className="w-full h-[700px] font-inter"
+      className="w-full h-[700px] font-inter bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${HeroImage})` }}
     >
       <div>

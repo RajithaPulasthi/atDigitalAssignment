@@ -25,7 +25,7 @@ const Footer = () => {
           <h2 className="text-2xl font-semibold">Our Technologies </h2>
           <ul className="text-sm font-medium ">
             <li className="pt-2">Social Media Marketing</li>
-            <li className="pt-2">Mobile & App Development</li>
+            <li className="pt-2">Web & Mobile App Development</li>
             <li className="pt-2">Data & Analytics</li>
           </ul>
         </div>
