@@ -4,7 +4,6 @@ const Footer = () => {
     <div className="bg-primary w-full h-[266px] text-white font-inter ">
       <div className="flex flex-row ml-16 pt-8">
         <div className="basis-1/2 text-white">
-          {" "}
           <img src={Logo} alt="Footer Logo" />
           <p className="text-base font-normal w-96 pt-2">
             Your goal is our target. Not anything in between. We use online
