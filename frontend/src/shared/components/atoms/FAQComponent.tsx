@@ -38,14 +38,14 @@ const FAQComponent = () => {
   };
 
   return (
-    <div className="w-[846px] mx-auto p-4 m-10 font-inter flex flex-col items-center justify-center">
+    <div className="xl:max-w-6xl mx-auto p-4 lg:p-6 m-10 font-inter">
       {faqs.map((faq, index) => (
         <div
           key={index}
-          className="mb-4 bg-accent1 w-[846px] justify-center items-center p-4 "
+          className="mb-4 bg-accent1 w-full max-w-2xl mx-auto p-4  "
         >
           <button
-            className="flex justify-between w-full text-left text-lg font-medium"
+            className="flex justify-between w-full text-left text-[22px] font-medium"
             onClick={() => handleToggleFAQ(faq.question)}
           >
             <span
@@ -64,7 +64,7 @@ const FAQComponent = () => {
             </span>
           </button>
           {activeFAQ === faq.question && (
-            <p className="text-lg mt-2 text-textColorLight font-normal">
+            <p className="text-base mt-2 text-textColorLight font-normal">
               {faq.answer}
             </p>
           )}
