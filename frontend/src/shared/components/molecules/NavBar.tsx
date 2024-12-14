@@ -2,7 +2,7 @@ import Logo from "../../../assets/Logo.png";
 
 const NavBar = () => {
   return (
-    <div className="bg-primary w-full h-[77px] flex items-center justify-between">
+    <div className="bg-primary w-full h-[77px] flex items-center justify-between font-inter">
       <div className="ml-16">
         <img src={Logo} alt="AT Digital Logo " />
       </div>
