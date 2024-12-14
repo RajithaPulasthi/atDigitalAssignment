@@ -1,4 +1,5 @@
 import HeroImage from "../../../assets/heroImage.png";
+import Button from "../atoms/Button";
 
 const HeroSection = () => {
   return (
@@ -6,14 +7,13 @@ const HeroSection = () => {
       className="w-full h-[700px] font-inter bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${HeroImage})` }}
     >
-      <div>
-        <h1 className="text-6xl text-white font-bold pt-20 pl-20">
-          We are here to help you grow
+      <div className="w-[630px] h-[306px] bg-gradient-to-r from-dark2 to-analogous2 ml-16 relative top-[350px]">
+        <h1 className="text-5xl text-white font-bold font-inter pl-8 pt-6 w-[566px]">
+          We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
         </h1>
-        <p className="text-2xl text-white font-normal pl-20 pt-4 w-1/2">
-          We are a team of talented developers and designers who are here to
-          help you grow your business.
-        </p>
+        <div className="pt-6 pl-8">
+          <Button text="Get free consultation" type="button" />
+        </div>
       </div>
     </div>
   );

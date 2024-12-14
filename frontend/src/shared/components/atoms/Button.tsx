@@ -1,21 +1,13 @@
-type ButtonProps = {
+interface ButtonProps {
   text: string;
-  color: string;
-  textColor: string;
-};
+  type?: "submit" | "button";
+}
 
-const Button: React.FC<ButtonProps> = ({ text, color, textColor }) => {
+const Button = ({ text, type }: ButtonProps) => {
   return (
     <button
-      style={{
-        backgroundColor: color,
-        color: textColor,
-        border: "none",
-        borderRadius: "5px",
-        fontSize: "14px",
-        fontWeight: 700, // Bold text
-        fontFamily: "Inter, sans-serif",
-      }}
+      className="rounded bg-secondary px-3 py-2 text-sm text-white shadow-sm font-inter font-bold"
+      type={type}
     >
       {text}
     </button>
