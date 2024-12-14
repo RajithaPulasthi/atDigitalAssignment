@@ -1,13 +1,15 @@
-import FAQComponent from '../atoms/FAQComponent'
-import TitleComponent from '../atoms/TitleComponent'
+import FAQComponent from "../atoms/FAQComponent";
+import TitleComponent from "../atoms/TitleComponent";
 
 const FAQSection = () => {
   return (
-    <div className='flex flex-col items-center justify-center w-full'>
-        <TitleComponent text='Frequently asked questions' />
-        <FAQComponent />
+    <div className="flex flex-col items-center justify-center w-full ">
+      <div className="text-center mt-8">
+        <TitleComponent text="Frequently asked questions" />
+      </div>
+      <FAQComponent />
     </div>
-  )
-}
+  );
+};
 
-export default FAQSection
+export default FAQSection;
